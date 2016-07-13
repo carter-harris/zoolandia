@@ -1,22 +1,6 @@
-class Animal:
+from animals import *
+from species import *
+from habitat import *
+from movement import *
 
-  def __init__(self):
-    self.species = None
-    self.name = ''
-
-
-
-class Species:
-
-  def __init__(self):
-    self.common_name = ''
-    self.geo_region = ''
-
-
-
-class Habitat:
-
-  def __init__(self):
-    self.name = ''
-    self.members = set()
-
+bob = Betta('blue', 'Bob')
